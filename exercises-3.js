@@ -10,8 +10,8 @@ function dataHandling(input) {
     
         console.log(`Nomor ID: ${input[outer][0]}`);
         console.log(`Nama Lengkap: ${input[outer][1]}`);
-        console.log(`TTL: ${input[outer][2]}`);
-        console.log(`Hobi: ${input[outer][3]} \n`);
+        console.log(`TTL: ${input[outer][2]} ${input[outer][3]}`);
+        console.log(`Hobi: ${input[outer][4]} \n`);
     }
 
 }
