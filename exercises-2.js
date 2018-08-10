@@ -1,6 +1,9 @@
-var balik = "hello world!";
-var kilab = "";
-for (let index = balik.length-1; index >=0; index--) {
-    kilab = kilab + balik[index]; 
+function fungsiBalik(kata) {
+    let balik = "";
+    for (let index = kata.length-1; index >=0; index--) {
+        balik = balik + kata[index]; 
+    }
+    return balik;
 }
-console.log(kilab)
+
+console.log(fungsiBalik("hello world!"))
